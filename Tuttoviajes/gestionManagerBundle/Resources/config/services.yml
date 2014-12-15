@@ -1,0 +1,4 @@
+services:
+    gestionmanager_api:
+        class: Tuttoviajes\gestionManagerBundle\Services\GestionManager
+        arguments: [%gestion.manager.token%]
