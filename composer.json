@@ -1,5 +1,5 @@
 {
-    "name": "tuttoviajes/gestionManagerAPIBundle",
+    "name": "Tuttoviajes/GestionManagerAPIBundle",
     "description": "Symfony2 bundle to access tuttoviajes gestionManager API.",
     "keywords": [
         "tuttoviajes",
