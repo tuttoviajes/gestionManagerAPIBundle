@@ -1,0 +1,18 @@
+{
+    "name": "tuttoviajes/gestionManagerAPIBundle",
+    "description": "Symfony2 bundle to access tuttoviajes gestionManager API.",
+    "keywords": [
+        "tuttoviajes",
+        "api",
+        "webservice"
+    ],
+    "homepage": "https://github.com/tuttoviajes/gestionManagerAPIBundle",
+    "license": "Apache2",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-4": {"Tuttoviajes\\ManagerAPIBundle\\": "Tuttoviajes/ManagerAPIBundle"}
+    }
+}
