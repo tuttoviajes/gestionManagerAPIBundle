@@ -1,7 +1,7 @@
 <?php
 namespace Tuttoviajes\gestionManagerBundle\Exceptions;
 
-class DoctorsenderResponseException extends \Exception
+class TuttoviajesResponseException extends \Exception
 {
 
     public function __construct()

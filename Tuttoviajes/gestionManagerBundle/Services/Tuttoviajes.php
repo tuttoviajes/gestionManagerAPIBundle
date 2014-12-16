@@ -10,7 +10,7 @@ namespace Tuttoviajes\gestionManagerBundle\Services;
 
 use Doctorsender\APIBundle\Exceptions\DoctorsenderResponseException;
 
-class GestionManager
+class Tuttoviajes
 {
 
     protected $token, $proxy;
@@ -22,11 +22,6 @@ class GestionManager
 
     protected function processResponse($response)
     {
-        if (!is_array($response) || !isset($response['msg']) || $response['error'] == 1) {
-            throw new DoctorsenderResponseException($response);
-        }
-
-        return $response['msg'];
     }
 
 }

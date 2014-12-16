@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class DoctorsenderAPIExtension extends Extension
+class gestionManagerExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -25,7 +25,7 @@ class DoctorsenderAPIExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        $container->setParameter('gestion.manager.token', $config['token']);
+        $container->setParameter('tuttoviajes.token', $config['token']);
 
     }
 }
